@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <!-- movie poster -->
-    <img class="movie--poster my-3" :src="movie.post_url" alt /><br>
+    <img class="d-inline-block movie--poster my-3" :src="movie.post_url" alt /><br>
     <!-- movie title -->
     <div class="d-inline-block">
       <!-- {{ movie }} -->
@@ -189,16 +189,5 @@ export default {
 </script>
 
 <style>
-.movie--poster {
-  width: 200px;
-  height: 300px;
-}
-.person--poster {
-  width: 70px;
-  height: 90px;
-}
-.snapshot {
-  width: 200px;
-  height: 150px;
-}
+
 </style>
